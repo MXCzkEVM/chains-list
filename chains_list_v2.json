@@ -1,0 +1,84 @@
+{
+    "name": "Chains RPC URLs",
+    "networks": [
+        {
+            "logo": "assets/svg/networks/moonchain.svg",
+            "web3RpcHttpUrl": "https://geneva-rpc.moonchain.com",
+            "web3RpcWebsocketUrl": "wss://geneva-rpc.moonchain.com/ws",
+            "web3WebSocketUrl": "wss://geneva-explorer-v1.moonchain.com/socket/v2/websocket?vsn=2.0.0",
+            "symbol": "MXC",
+            "explorerUrl": "https://geneva-explorer.moonchain.com",
+            "enabled": false,
+            "label": "Moonchain Geneva Testnet",
+            "chainId": 5167004, 
+            "isAdded": true,
+            "networkType": "testnet"
+        },
+        {
+            "logo": "assets/svg/networks/moonchain.svg",
+            "web3RpcHttpUrl": "https://rpc.mxc.com",
+            "web3RpcWebsocketUrl": "wss://rpc.mxc.com",
+            "web3WebSocketUrl": "wss://explorer-v1.mxc.com/socket/v2/websocket?vsn=2.0.0",
+            "symbol": "MXC",
+            "explorerUrl": "https://explorer.mxc.com/",
+            "enabled": true,
+            "label": "Moonchain zkEVM Mainnet",
+            "chainId": 18686,
+            "isAdded": true,
+            "networkType": "mainnet"
+        },
+        {
+            "logo": "assets/svg/networks/ethereum.svg",
+            "web3RpcHttpUrl": "https://ethereum.publicnode.com",
+            "web3RpcWebsocketUrl": "wss://ethereum.publicnode.com",
+            "symbol": "ETH",
+            "explorerUrl": "https://etherscan.io/",
+            "enabled": false,
+            "label": "Ethereum Mainnet",
+            "chainId": 1,
+            "isAdded": true,
+            "networkType": "mainnet"
+        },
+        {
+            "logo": "assets/svg/networks/arbitrum.svg",
+            "web3RpcHttpUrl": "https://arbitrum.blockpi.network/v1/rpc/public",
+            "web3RpcWebsocketUrl": "wss://arbitrum.blockpi.network/v1/rpc/public",
+            "symbol": "Eth",
+            "explorerUrl": "https://arbiscan.io/",
+            "enabled": false,
+            "label": "Arbitrum One",
+            "chainId": 42161,
+            "isAdded": true,
+            "networkType": "mainnet"
+        },
+        {
+            "logo": "assets/svg/networks/arbitrum.svg",
+            "web3RpcHttpUrl": "https://arbitrum-goerli.publicnode.com",
+            "web3RpcWebsocketUrl": "wss://arbitrum-goerli.publicnode.com",
+            "symbol": "AGOR",
+            "explorerUrl": "https://goerli-rollup-explorer.arbitrum.io/",
+            "enabled": false,
+            "label": "Arbitrum Goerli",
+            "chainId": 421613,
+            "isAdded": true,
+            "networkType": "testnet"
+        },
+        {
+            "logo": "assets/svg/networks/ethereum.svg",
+            "web3RpcHttpUrl": "https://ethereum-sepolia.publicnode.com",
+            "web3RpcWebsocketUrl": "wss://ethereum-sepolia.publicnode.com",
+            "symbol": "ETH",
+            "explorerUrl": "https://sepolia.etherscan.io/",
+            "enabled": false,
+            "label": "Sepolia Testnet",
+            "chainId": 11155111,
+            "isAdded": false,
+            "networkType": "testnet"
+        }
+    ],
+    "version": {
+        "major": 2,
+        "minor": 0,
+        "patch": 0
+    }
+}
